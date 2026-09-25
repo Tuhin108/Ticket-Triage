@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.9444444444444444,
+  "precision": 0.9514991181657848,
+  "recall": 0.9444444444444444,
+  "f1_score": 0.9417001843472431,
+  "train_size": 142,
+  "test_size": 36,
+  "embedding_model": "all-MiniLM-L6-v2"
+}

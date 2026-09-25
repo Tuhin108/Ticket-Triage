@@ -1,0 +1,187 @@
+ticket_id,customer_name,ticket_description,date,priority,status,category
+TCK1025,Vikram Singh,"Hi, Requesting a name change on my account due to a legal update. This is urgent.",2026-09-25,Medium,In Progress,Account Update
+TCK1003,Priya Nair,My report shows incorrect totals compared to last month. Thanks in advance.,2026-06-21,High,Open,Report
+TCK1073,Amitabh Das,"Hello, Report export is stuck at 0 percent and never finishes. This is urgent.",2026-05-27,Low,In Progress,Report
+TCK1171,Vikram Singh,"Hello, I need to merge two accounts into a single account. Please help.",2026-02-21,Medium,Open,Account Update
+TCK1047,Karan Gupta,"Dear support, How do I update my phone number linked to the account? Please assist as soon as possible.",2026-07-27,Low,Resolved,Account Update
+TCK1112,Isha Patel,"Hi support team, Numbers in the financial report do not match the invoices. This is urgent.",2026-05-16,Critical,Closed,Report
+TCK1006,Sneha Iyer,"Hello, Unable to download the report in PDF format. This is urgent.",2026-05-12,Medium,In Progress,Report
+TCK1146,Isha Patel,The report filters are not applying correctly to the data.,2026-07-15,Medium,Closed,Report
+TCK1082,Divya Menon,"Hi team, My account is locked after multiple failed login attempts. Let me know how to proceed.",2026-05-12,Medium,Open,Login Issue
+TCK1064,Sanjay Joshi,"Hi support team, The chart in the analytics report is not loading properly.",2026-01-10,Medium,,Report
+TCK1102,Pooja Desai,"Hi, Clicking the export button crashes the entire application. Please help.",2026-07-11,High,Closed,Application Error
+TCK1151,Arjun Reddy,"Hi support team, App logs me out automatically every few minutes.",2026-09-16,High,Resolved,Login Issue
+TCK1038,Neha Kapoor,"Hi, I need help understanding a column in the generated report. Please assist as soon as possible.",2026-03-17,Medium,In Progress,Report
+TCK1128,Aarav Sharma,"Hi support team, I am getting a 500 internal server error on the dashboard. Let me know how to proceed.",2026-03-10,High,In Progress,Application Error
+TCK1004,Arjun Reddy,"Hi, The website is very slow today compared to yesterday.",2026-05-21,Medium,Open,Performance
+TCK1046,Karan Gupta,"Hi, I want to update my payment method for future invoices. Kindly look into this.",2026-09-14,Medium,Closed,Account Update
+TCK1179,Ananya Rao,"Hi support team, Unable to log in using my Google account, keeps failing. Let me know how to proceed.",2026-03-11,High,Resolved,Login Issue
+TCK1078,Karan Gupta,"Dear support, The report scheduler did not send the report on time. Please assist as soon as possible.",2026-02-16,High,In Progress,Report
+TCK1120,Isha Patel,"Hi support team, My report shows incorrect totals compared to last month. Please help.",2026-01-27,High,In Progress,Report
+TCK1092,Vikram Singh,"Hi team, Requesting a name change on my account due to a legal update. Please assist as soon as possible.",2026-08-12,Critical,Resolved,Account Update
+TCK1015,Amitabh Das,The chart in the analytics report is not loading properly. Please help.,2026-02-12,Critical,Open,Report
+TCK1156,Arjun Reddy,"Hi, API responses are delayed by several seconds during peak hours. Please assist as soon as possible.",2026-01-24,Medium,Resolved,Performance
+TCK1105,Sanjay Joshi,How do I update my phone number linked to the account? Thanks in advance.,2026-05-20,Critical,Open,Account Update
+TCK1116,Rohan Mehta,"Hello, Unable to log in using my Google account, keeps failing. Kindly look into this.",2026-02-19,High,Closed,Login Issue
+TCK1174,Sneha Iyer,The page shows a blank white screen after clicking submit.,2026-07-24,Low,Open,Application Error
+TCK1023,Sanjay Joshi,I need to change my subscription plan to the premium tier. Thanks in advance.,2026-09-13,,Open,Account Update
+TCK1126,Sanjay Joshi,"Hi team, Login is extremely slow and sometimes never completes. Please help.",2026-04-12,Medium,In Progress,Performance
+TCK1040,Isha Patel,"I cannot access my account, it says username not recognized. Let me know how to proceed.",2026-04-16,Critical,Resolved,Login Issue
+TCK1070,Neha Kapoor,"Hi, How do I update my phone number linked to the account? Please help.",2026-09-18,Critical,Closed,Account Update
+TCK1103,Pooja Desai,"Hi support team, Unable to edit my company details in the account settings. Let me know how to proceed.",2026-03-25,Low,In Progress,Account Update
+TCK1141,Neha Kapoor,API responses are delayed by several seconds during peak hours. Please help.,2026-01-12,Medium,Closed,Performance
+TCK1034,Pooja Desai,"Hi support team, Getting 'invalid credentials' error every time I try to sign in. Thanks in advance.",2026-05-11,Low,Resolved,Login Issue
+TCK1135,Amitabh Das,"Hi team, The report filters are not applying correctly to the data. Kindly look into this.",2026-08-12,Low,Open,Report
+TCK1122,Rohan Mehta,"Hi team, Getting 'invalid credentials' error every time I try to sign in. Please assist as soon as possible.",2026-07-24,High,Closed,Login Issue
+TCK1098,Vikram Singh,"Hi support team, I need help understanding a column in the generated report. This is urgent.",2026-08-25,Medium,Closed,Report
+TCK1087,Amitabh Das,"Hi support team, The report scheduler did not send the report on time. Let me know how to proceed.",2026-04-23,Low,In Progress,Report
+TCK1051,Vikram Singh,"Hi support team, The app lags heavily when scrolling through the list. Kindly look into this.",2026-08-22,Medium,In Progress,Performance
+TCK1058,Pooja Desai,"Hi support team, How can I update my profile picture and display name?",2026-07-25,Low,Resolved,Account Update
+TCK1071,Sneha Iyer,"Hello, Uploading files is extremely slow and often times out. Let me know how to proceed.",2026-02-18,Critical,In Progress,Performance
+TCK1139,Sneha Iyer,"Hello, My report shows incorrect totals compared to last month. Please assist as soon as possible.",2026-07-27,Low,Resolved,Report
+TCK1160,Pooja Desai,"Hello, Requesting a name change on my account due to a legal update. Kindly look into this.",2026-03-20,Low,In Progress,Account Update
+TCK1132,Rohan Mehta,"Hello, The report page is loading very slowly and times out. Please assist as soon as possible.",2026-02-14,High,Resolved,Performance
+TCK1165,Neha Kapoor,"Hi team, The app freezes and stops responding when I upload a file. Let me know how to proceed.",2026-03-24,Low,Closed,Application Error
+TCK1077,Neha Kapoor,"Hello, I forgot my password and the reset email never arrives.",2026-09-15,Medium,In Progress,Login Issue
+TCK1017,Vikram Singh,"Hi support team, The app lags heavily when scrolling through the list. This is urgent.",2026-06-24,Critical,Open,Performance
+TCK1042,Vikram Singh,"Hi support team, The report filters are not applying correctly to the data. Please assist as soon as possible.",2026-09-20,Low,Open,Report
+TCK1041,Sneha Iyer,An error popup appears saying 'unexpected error occurred'. Kindly look into this.,2026-07-20,High,Open,Application Error
+TCK1031,Rohan Mehta,"Hello, I forgot my password and the reset email never arrives. This is urgent.",2026-08-27,High,Open,Login Issue
+TCK1108,Aarav Sharma,"Hello, I am unable to login because my password is not working. Let me know how to proceed.",2026-05-21,High,Closed,Login Issue
+TCK1005,Pooja Desai,"Hello, My account dashboard takes too long to load after the update.",2026-04-13,Critical,Resolved,Performance
+TCK1170,Amitabh Das,"Hi, Search results take more than a minute to appear.",2026-04-24,High,Open,Performance
+TCK1168,Divya Menon,"Hi team, How do I update my phone number linked to the account? Let me know how to proceed.",2026-03-18,Low,Closed,Account Update
+TCK1157,Priya Nair,Search results take more than a minute to appear. Thanks in advance.,2026-06-12,Medium,Open,Performance
+TCK1134,Isha Patel,"Hello, The mobile app force closes whenever I open notifications. Let me know how to proceed.",2026-07-23,Low,Resolved,Application Error
+TCK1111,Arjun Reddy,"Hello, OTP for login is not received on my registered mobile number. Kindly look into this.",2026-03-12,Critical,Resolved,Login Issue
+TCK1012,Rahul Verma,"Hello, App logs me out automatically every few minutes. Let me know how to proceed.",2026-06-13,,Closed,Login Issue
+TCK1014,Divya Menon,"Dear support, The system displays 'something went wrong' after checkout.",2026-06-25,Low,Open,Application Error
+TCK1024,Isha Patel,"Hi, The app freezes and stops responding when I upload a file. Thanks in advance.",2026-04-22,Low,In Progress,Application Error
+TCK1089,Vikram Singh,,2026-05-26,Critical,Closed,Login Issue
+TCK1072,Ananya Rao,"Hi support team, Page load time has increased a lot since the last update. Thanks in advance.",2026-01-25,High,In Progress,Performance
+TCK1008,Sneha Iyer,"Hello, Numbers in the financial report do not match the invoices.",2026-06-16,Critical,Closed,Report
+TCK1067,Vikram Singh,"Hi support team, The report scheduler did not send the report on time. Thanks in advance.",2026-04-12,Medium,Open,Report
+TCK1053,Isha Patel,"Hi team, OTP for login is not received on my registered mobile number. Let me know how to proceed.",2026-09-27,High,,Login Issue
+TCK1027,Priya Nair,Search results take more than a minute to appear. Please assist as soon as possible.,2026-03-12,Low,In Progress,Performance
+TCK1083,Divya Menon,"Dear support, How can I update my profile picture and display name? Let me know how to proceed.",2026-04-26,Critical,Closed,Account Update
+TCK1125,Pooja Desai,"Hi team, I tried to reset my password but the page crashed midway.",2026-08-12,Medium,Open,Application Error
+TCK1161,Neha Kapoor,"Hi team, Numbers in the financial report do not match the invoices. Please assist as soon as possible.",2026-02-19,Critical,Resolved,Report
+TCK1043,Aarav Sharma,"Dear support, Unable to download the report in PDF format. This is urgent.",2026-02-23,High,Resolved,Report
+TCK1057,Arjun Reddy,"Hi, I cannot access my account, it says username not recognized. This is urgent.",2026-08-23,Low,In Progress,Login Issue
+TCK1153,Divya Menon,"Dear support, Please cancel my current subscription and refund the last charge. Let me know how to proceed.",2026-08-28,High,Resolved,Account Update
+TCK1022,Sneha Iyer,"Hi team, My report shows incorrect totals compared to last month. Please help.",2026-09-24,Medium,Closed,Report
+TCK1154,Karan Gupta,"Hi, OTP for login is not received on my registered mobile number. Kindly look into this.",2026-05-28,Low,Resolved,Login Issue
+TCK1173,Sneha Iyer,Getting 'invalid credentials' error every time I try to sign in. This is urgent.,2026-03-27,Critical,Open,Login Issue
+TCK1115,Neha Kapoor,"Hi support team, Uploading files is extremely slow and often times out. Let me know how to proceed.",2026-03-13,Low,,Performance
+TCK1063,Pooja Desai,"Hi, Requesting a name change on my account due to a legal update. This is urgent.",2026-02-25,Low,Open,Account Update
+TCK1162,Vikram Singh,"Hi support team, The website is very slow today compared to yesterday. Kindly look into this.",2026-09-21,Low,Resolved,Performance
+TCK1136,Ananya Rao,"Hi support team, The report page is loading very slowly and times out. Kindly look into this.",2026-03-27,Low,Resolved,Performance
+TCK1118,Priya Nair,The report filters are not applying correctly to the data. Thanks in advance.,2026-03-17,Critical,Resolved,Report
+TCK1045,Priya Nair,"Hello, The app lags heavily when scrolling through the list. Thanks in advance.",2026-06-20,Low,Resolved,Performance
+TCK1035,Arjun Reddy,"Hi support team, Unable to download the report in PDF format. Thanks in advance.",2026-07-27,Low,Open,Report
+TCK1065,Isha Patel,"Hi team, Search results take more than a minute to appear. Please help.",2026-02-28,Medium,Closed,Performance
+TCK1050,Sneha Iyer,The app freezes and stops responding when I upload a file.,2026-08-12,Critical,Closed,Application Error
+TCK1101,Sanjay Joshi,"Hello, I want to update my payment method for future invoices. Please assist as soon as possible.",2026-09-22,Critical,Resolved,Account Update
+TCK1016,Isha Patel,"Hi team, Search results take more than a minute to appear. Kindly look into this.",2026-09-15,High,Closed,Performance
+TCK1019,Priya Nair,The account settings page takes forever to open. Please help.,2026-01-20,Low,In Progress,Performance
+TCK1086,Sneha Iyer,"Hello, Video playback keeps buffering even on a fast connection.",2026-05-19,Critical,Open,Performance
+TCK1158,Divya Menon,"Dear support, Please cancel my current subscription and refund the last charge. Please assist as soon as possible.",2026-03-21,High,Resolved,Account Update
+TCK1068,Divya Menon,The report scheduler did not send the report on time. Let me know how to proceed.,2026-01-21,Critical,Resolved,Report
+TCK1076,Ananya Rao,"Hi support team, Numbers in the financial report do not match the invoices. Please assist as soon as possible.",2026-06-24,High,Resolved,Report
+TCK1130,Isha Patel,"Dear support, I need help understanding a column in the generated report.",2026-09-17,Low,Resolved,Report
+TCK1010,Arjun Reddy,"Hi team, I want to update my payment method for future invoices. Please help.",2026-08-12,Low,Open,Account Update
+TCK1084,Divya Menon,"Hi, The report scheduler did not send the report on time. This is urgent.",2026-01-13,Medium,In Progress,Report
+TCK1011,Vikram Singh,"Dear support, The mobile app force closes whenever I open notifications.",2026-07-24,High,Open,Application Error
+TCK1145,Aarav Sharma,"Dear support, The export button for my report is broken and does nothing.",2026-04-19,Medium,In Progress,Application Error
+TCK1088,Rohan Mehta,Unable to download the report in PDF format.,2026-05-28,High,Closed,Report
+TCK1163,Sneha Iyer,"Hi, Application throws a null pointer exception on save. Please help.",2026-03-14,Low,Resolved,Application Error
+TCK1133,Arjun Reddy,"Hello, The system becomes unresponsive when many users are online. Thanks in advance.",2026-07-13,Low,In Progress,Performance
+TCK1009,Sneha Iyer,"Hello, How do I update my phone number linked to the account? Please help.",2026-09-27,High,Closed,Account Update
+TCK1109,Rahul Verma,"Hi, My weekly report keeps freezing halfway through loading. Please assist as soon as possible.",2026-03-15,Medium,Open,Performance
+TCK1032,Amitabh Das,"Hi support team, Uploading files is extremely slow and often times out.",2026-03-18,Low,Open,Performance
+TCK1029,Rohan Mehta,"Hello, The chart in the analytics report is not loading properly. Thanks in advance.",2026-05-24,High,Open,Report
+TCK1039,Sanjay Joshi,"Hi support team, My account is locked after multiple failed login attempts. This is urgent.",2026-07-17,High,In Progress,Login Issue
+TCK1056,Rohan Mehta,"Dear support, The report filters are not applying correctly to the data.",2026-03-17,Critical,In Progress,Report
+TCK1112,Isha Patel,"Hi support team, Numbers in the financial report do not match the invoices. This is urgent.",2026-05-16,Critical,Closed,Report
+TCK1091,Rahul Verma,Page load time has increased a lot since the last update. Let me know how to proceed.,2026-05-28,Low,In Progress,Performance
+TCK1100,Neha Kapoor,Uploading files is extremely slow and often times out. This is urgent.,2026-05-28,Critical,In Progress,Performance
+TCK1178,Neha Kapoor,"Hello, I cannot access my account, it says username not recognized. This is urgent.",2026-01-21,Low,Resolved,Login Issue
+TCK1074,Arjun Reddy,"Hi, Report generation failed and now I can't log back in. Thanks in advance.",2026-04-25,Critical,Closed,Login Issue
+TCK1059,Neha Kapoor,"Dear support, Unable to edit my company details in the account settings. Kindly look into this.",2026-09-17,Critical,In Progress,Account Update
+TCK1121,Priya Nair,"Hi support team, Requesting a name change on my account due to a legal update. Thanks in advance.",2026-03-11,Low,Resolved,Account Update
+TCK1044,Sneha Iyer,"Hi, The website is very slow today compared to yesterday. Please assist as soon as possible.",2026-05-11,Critical,Open,Performance
+TCK1159,Rahul Verma,The report scheduler did not send the report on time. Let me know how to proceed.,2026-06-12,High,Open,Report
+TCK1161,Neha Kapoor,"Hi team, Numbers in the financial report do not match the invoices. Please assist as soon as possible.",2026-02-19,Critical,Resolved,Report
+TCK1036,Aarav Sharma,"Hi team, Report generation failed and now I can't log back in. Please assist as soon as possible.",2026-06-28,Medium,Closed,Login Issue
+TCK1144,Vikram Singh,The system displays 'something went wrong' after checkout. This is urgent.,2026-02-19,Critical,Resolved,Application Error
+TCK1164,Neha Kapoor,"Dear support, App logs me out automatically every few minutes. Let me know how to proceed.",2026-09-11,High,In Progress,Login Issue
+TCK1114,Isha Patel,"Dear support, The application is taking too long to load every page. Kindly look into this.",2026-05-17,High,In Progress,Performance
+TCK1137,Vikram Singh,"Hi support team, I want to update my payment method for future invoices. Let me know how to proceed.",2026-01-19,High,Resolved,Account Update
+TCK1052,Rohan Mehta,"Hi, Getting 'invalid credentials' error every time I try to sign in. Please help.",2026-09-24,Low,In Progress,Login Issue
+TCK1177,Sanjay Joshi,"Dear support, My weekly report keeps freezing halfway through loading. Please assist as soon as possible.",2026-09-27,Low,Closed,Performance
+TCK1061,Divya Menon,"Hi, The application is taking too long to load every page. Please assist as soon as possible.",2026-01-12,Critical,In Progress,Performance
+TCK1048,Ananya Rao,"Dear support, How can I update my profile picture and display name? Kindly look into this.",2026-08-24,Critical,,Account Update
+TCK1030,Priya Nair,"Dear support, I cannot update my profile picture, it just shows an error.",2026-09-16,High,In Progress,Application Error
+TCK1176,Divya Menon,"Hello, Unable to log in using my Google account, keeps failing. Please help.",2026-07-15,Low,Resolved,Login Issue
+TCK1013,Rohan Mehta,"Dear support, Two factor authentication code is not being accepted. Let me know how to proceed.",2026-09-13,High,In Progress,Login Issue
+TCK1095,Sanjay Joshi,"Hello, The system displays 'something went wrong' after checkout. Please assist as soon as possible.",2026-08-24,Low,In Progress,Application Error
+TCK1096,Isha Patel,"Hi, The page shows a blank white screen after clicking submit. Kindly look into this.",2026-02-10,Medium,In Progress,Application Error
+TCK1055,Sneha Iyer,"Hi, I need help understanding a column in the generated report. Kindly look into this.",2026-05-24,Low,Resolved,Report
+TCK1075,Neha Kapoor,"Hi team, Two factor authentication code is not being accepted. Thanks in advance.",2026-04-19,High,Closed,Login Issue
+TCK1140,Karan Gupta,"Hi support team, I tried to reset my password but the page crashed midway. Let me know how to proceed.",2026-06-21,Low,In Progress,Application Error
+TCK1080,Aarav Sharma,I keep getting error code 404 when accessing my profile page. Let me know how to proceed.,2026-05-25,Critical,Closed,Application Error
+TCK1099,Neha Kapoor,"Dear support, I need to change my subscription plan to the premium tier. Please assist as soon as possible.",2026-03-12,High,Closed,Account Update
+TCK1124,Pooja Desai,"Hi, I keep getting error code 404 when accessing my profile page. Please help.",2026-06-13,High,Resolved,Application Error
+TCK1143,Karan Gupta,"Hi support team, The application is taking too long to load every page.",2026-08-23,Critical,Closed,Performance
+TCK1117,Arjun Reddy,"Hello, The system displays 'something went wrong' after checkout. Please assist as soon as possible.",2026-05-15,High,Closed,Application Error
+TCK1085,Arjun Reddy,"Hi team, My account is locked after multiple failed login attempts. Please help.",2026-02-15,Low,Closed,Login Issue
+TCK1001,Arjun Reddy,"Hi team, The report page is loading very slowly and times out. Please help.",2026-01-27,Medium,Closed,Performance
+TCK1113,Divya Menon,"Dear support, The export button for my report is broken and does nothing. This is urgent.",2026-05-19,Low,Closed,Application Error
+TCK1155,Aarav Sharma,"Hi, The weekly summary report is missing several entries.",2026-06-19,Low,Open,Report
+TCK1116,Rohan Mehta,"Hello, Unable to log in using my Google account, keeps failing. Kindly look into this.",2026-02-19,High,Closed,Login Issue
+TCK1018,Arjun Reddy,The login page keeps refreshing without signing me in. Please assist as soon as possible.,2026-04-28,Medium,Open,Login Issue
+TCK1099,Neha Kapoor,"Dear support, I need to change my subscription plan to the premium tier. Please assist as soon as possible.",2026-03-12,High,Closed,Account Update
+TCK1054,Amitabh Das,"Dear support, API responses are delayed by several seconds during peak hours. Thanks in advance.",2026-03-25,Critical,Resolved,Performance
+TCK1175,Rahul Verma,"Dear support, How can I update my profile picture and display name?",2026-09-28,Medium,In Progress,Account Update
+TCK1028,Aarav Sharma,"Dear support, The app lags heavily when scrolling through the list. Please assist as soon as possible.",2026-02-23,High,Resolved,Performance
+TCK1127,Amitabh Das,"Hi team, Application throws a null pointer exception on save. Let me know how to proceed.",2026-01-18,Medium,In Progress,Application Error
+TCK1049,Rahul Verma,"Hello, I am getting a 500 internal server error on the dashboard. Please assist as soon as possible.",2026-06-12,Medium,Resolved,Application Error
+TCK1094,Sanjay Joshi,"Hello, Report export is stuck at 0 percent and never finishes.",2026-07-26,Low,Closed,Report
+TCK1020,Neha Kapoor,"Dear support, I need to change my subscription plan to the premium tier. Please help.",2026-08-17,Critical,Closed,Account Update
+TCK1037,Pooja Desai,"Hello, I tried to reset my password but the page crashed midway. Let me know how to proceed.",2026-01-21,Medium,In Progress,Application Error
+TCK1079,Rohan Mehta,,2026-05-11,Low,Resolved,Report
+TCK1123,Pooja Desai,"Hi support team, The mobile app force closes whenever I open notifications.",2026-08-23,High,Open,Application Error
+TCK1033,Sneha Iyer,"Hello, The page shows a blank white screen after clicking submit. Please assist as soon as possible.",2026-06-16,High,Closed,Application Error
+TCK1007,Arjun Reddy,"Hi support team, Requesting a name change on my account due to a legal update. Kindly look into this.",2026-04-20,Low,In Progress,Account Update
+TCK1062,Ananya Rao,"Hello, The application crashes every time I open the reports tab. Thanks in advance.",2026-04-24,High,Resolved,Application Error
+TCK1035,Arjun Reddy,"Hi support team, Unable to download the report in PDF format. Thanks in advance.",2026-07-27,Low,Open,Report
+TCK1054,Amitabh Das,"Dear support, API responses are delayed by several seconds during peak hours. Thanks in advance.",2026-03-25,Critical,Resolved,Performance
+TCK1097,Sneha Iyer,"Hi, App logs me out automatically every few minutes.",2026-02-24,Low,In Progress,Login Issue
+TCK1110,Isha Patel,"Hi support team, How can I update my profile picture and display name? Please help.",2026-03-17,Critical,Resolved,Account Update
+TCK1104,Pooja Desai,The dashboard takes forever to refresh after login. Let me know how to proceed.,2026-08-13,Critical,Open,Performance
+TCK1069,Pooja Desai,"Hello, The account settings page takes forever to open.",2026-07-25,Low,Closed,Performance
+TCK1090,Ananya Rao,"Hi, I am unable to generate my report because the app keeps crashing. Kindly look into this.",2026-05-10,Low,In Progress,Application Error
+TCK1129,Rohan Mehta,"Hello, My account is locked after multiple failed login attempts.",2026-07-26,Low,Open,Login Issue
+TCK1060,Rahul Verma,"Hi, I want to update my email address on my account. This is urgent.",2026-07-15,Critical,In Progress,Account Update
+TCK1002,Sanjay Joshi,Uploading files is extremely slow and often times out. Let me know how to proceed.,2026-03-23,High,Resolved,Performance
+TCK1066,Neha Kapoor,"Dear support, Unable to download the report in PDF format. Please assist as soon as possible.",2026-02-15,High,Open,Report
+TCK1150,Vikram Singh,"Dear support, API responses are delayed by several seconds during peak hours.",2026-05-20,Medium,Resolved,Performance
+TCK1081,Pooja Desai,"Hi, Two factor authentication code is not being accepted.",2026-02-22,Critical,Open,Login Issue
+TCK1026,Aarav Sharma,"Hi support team, Unable to log in using my Google account, keeps failing. Please assist as soon as possible.",2026-06-11,Low,Closed,Login Issue
+TCK1142,Neha Kapoor,"Hello, Unable to download the report in PDF format. This is urgent.",2026-06-28,Low,Open,Report
+TCK1167,Divya Menon,"Hello, I need to change my subscription plan to the premium tier. Kindly look into this.",2026-08-24,High,Closed,Account Update
+TCK1093,Vikram Singh,"Hi team, My report shows incorrect totals compared to last month. This is urgent.",2026-08-19,Critical,Open,Report
+TCK1172,Aarav Sharma,"Hi team, The login page keeps refreshing without signing me in. Please help.",2026-05-25,Medium,Closed,Login Issue
+TCK1148,Vikram Singh,"Hello, Please help me change my billing address in the profile. Please assist as soon as possible.",2026-07-23,High,Open,Account Update
+TCK1166,Sanjay Joshi,"Dear support, I keep getting error code 404 when accessing my profile page. This is urgent.",2026-08-17,Medium,Resolved,Application Error
+TCK1119,Arjun Reddy,The export button for my report is broken and does nothing. This is urgent.,2026-02-24,High,Resolved,Application Error
+TCK1149,Pooja Desai,"Dear support, Unable to download the report in PDF format. Thanks in advance.",2026-06-12,Critical,Open,Report
+TCK1138,Rahul Verma,"Hi team, My weekly report keeps freezing halfway through loading. Please help.",2026-08-17,Low,Resolved,Performance
+TCK1169,Arjun Reddy,"Hi support team, The website is very slow today compared to yesterday. Let me know how to proceed.",2026-02-19,Low,In Progress,Performance
+TCK1107,Vikram Singh,"Hi support team, The chart in the analytics report is not loading properly.",2026-02-13,Critical,In Progress,Report
+TCK1147,Rahul Verma,"Dear support, The system displays 'something went wrong' after checkout. Let me know how to proceed.",2026-06-12,Critical,Open,Application Error
+TCK1021,Vikram Singh,"Hello, I cannot access my account, it says username not recognized. Thanks in advance.",2026-08-11,Low,Open,Login Issue
+TCK1000,Rohan Mehta,"Hi team, Two factor authentication code is not being accepted. Please help.",2026-02-27,Low,Closed,Login Issue
+TCK1131,Vikram Singh,"Hi, I am unable to login because my password is not working. Let me know how to proceed.",2026-07-13,Critical,Closed,Login Issue
+TCK1152,Karan Gupta,An error popup appears saying 'unexpected error occurred'. Please help.,2026-04-15,Medium,Open,Application Error
+TCK1106,Neha Kapoor,"Hello, API responses are delayed by several seconds during peak hours. Kindly look into this.",2026-08-27,Low,Open,Performance
