@@ -48,28 +48,38 @@ The project also provides:
 
 ## Model Results
 
-The two classification approaches were evaluated on the same held-out test set of 36 tickets.
+The primary classification pipeline uses TF-IDF features with Logistic Regression
+and achieved the following results on the held-out test set of 36 tickets:
 
-| Metric | Classic: TF-IDF + Logistic Regression | Smart: Sentence Embeddings + Logistic Regression |
-|---|---:|---:|
-| Accuracy | 94.44% | 94.44% |
-| Weighted Precision | 95.15% | 95.15% |
-| Weighted Recall | 94.44% | 94.44% |
-| Weighted F1 Score | 94.17% | 94.17% |
+| Metric | Score |
+|---|---:|
+| Accuracy | 94.44% |
+| Weighted Precision | 95.15% |
+| Weighted Recall | 94.44% |
+| Weighted F1 Score | 94.17% |
 
-The Smart model does **not** demonstrate a higher classification score on the current dataset. Its additional purpose is semantic representation, similar-ticket retrieval, and example-based explanation.
+The project also includes a semantic layer based on the
+`all-MiniLM-L6-v2` sentence-transformer.
 
-The dataset is synthetic and relatively small, so these results should not be interpreted as equivalent to real-world production performance.
+Rather than being presented as a replacement for the primary classifier, the
+semantic layer adds capabilities that TF-IDF alone does not provide:
 
-## Automatic Response Suggestion
+- Converts ticket descriptions into sentence-level semantic embeddings.
+- Retrieves the most semantically similar historical training tickets using
+  cosine similarity.
+- Provides example-based explanations for Smart Mode predictions.
+- Allows users to inspect similar previously classified tickets alongside the
+  prediction.
+- Supports the same Smart workflow for bulk ticket classification.
 
-The project also includes the assignment's bonus response-generation feature.
+The semantic layer was also evaluated on the same test set, but it did not
+produce a measurable improvement in classification performance on this
+particular dataset. Its main contribution is therefore **semantic similarity
+and example-based explanation**, rather than a higher classification score.
 
-After a ticket is classified, the application can generate a category-specific draft response using rule-based templates defined in `src/predict.py`.
-
-The response feature is intentionally self-contained and does not require an external LLM API or API key.
-
-The generated text is a draft for support assistance and should not be treated as verified information about a customer's account or the organisation's live operational state.
+The dataset is relatively small and synthetic, so the reported classification
+results should not be interpreted as equivalent to production performance on
+real-world customer-support data.
 
 ## Quick Start
 
