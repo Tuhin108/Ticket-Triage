@@ -1,5 +1,7 @@
 # Customer Support Ticket Classifier
 
+## The project is also deployed in Huggingface by me; the Ui will differ because I am using Gradio in Huggingface - https://fox15-ticket-triage.hf.space/
+
 This repository contains the complete, reproducible application. It classifies
 customer-support tickets into five categories and provides a suggested reply.
 The web app includes Classic TF-IDF predictions, an optional Smart
@@ -31,19 +33,6 @@ python allinone.py
 8. Starts the web app.
 
 Then open http://127.0.0.1:5000. Press `Ctrl+C` to stop it.
-
-Useful options:
-
-```bash
-# Use the existing environment without installing packages
-python allinone.py --skip-install
-
-# Run without the optional Smart model or its download
-python allinone.py --skip-smart
-
-# Combine both options
-python allinone.py --skip-install --skip-smart
-```
 
 ## Manual workflow
 
