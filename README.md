@@ -1,50 +1,121 @@
 # Customer Support Ticket Classifier
 
-## The project is also deployed in Huggingface by me; the Ui will differ because I am using Gradio in Huggingface - https://fox15-ticket-triage.hf.space/
+A complete ML-based customer-support ticket classification system that predicts the category of incoming support tickets and provides additional tools for explanation, bulk processing, and response drafting.
 
-This repository contains the complete, reproducible application. It classifies
-customer-support tickets into five categories and provides a suggested reply.
-The web app includes Classic TF-IDF predictions, an optional Smart
-sentence-embedding model, confidence breakdowns, explanations, and bulk CSV
-classification.
+## Live Demo
 
-The Hugging Face deployment is maintained separately in the parent project's
-`huggingfacedeploy` folder. This folder is the version intended for GitHub,
-local development, training, and experimentation.
+The project is also deployed on Hugging Face:
 
-## Quick start: do everything automatically
+https://fox15-ticket-triage.hf.space/
 
-From this folder, run:
+The Hugging Face version uses **Gradio**, so its interface is different from the local Flask application.
+
+## What the Project Does
+
+The system classifies customer-support tickets into five categories:
+
+- Login Issue
+- Application Error
+- Report
+- Account Update
+- Performance
+
+The project contains two implemented modelling paths:
+
+### Classic Mode
+**TF-IDF + Logistic Regression**
+
+This is the primary classification pipeline. It converts ticket descriptions into TF-IDF features and predicts the ticket category using Logistic Regression.
+
+### Smart Mode
+**Sentence Embeddings + Logistic Regression**
+
+Smart Mode uses `all-MiniLM-L6-v2` to generate sentence embeddings. In addition to classification, these embeddings are used to retrieve similar historical training tickets using cosine similarity.
+
+This adds an **example-based semantic explanation layer**: a user can see previously classified tickets that are semantically similar to the current ticket.
+
+The project also provides:
+
+- Single-ticket prediction
+- Probability estimates
+- Similar-ticket explanations in Smart Mode
+- Bulk CSV classification
+- Flask web interface
+- Automatic response suggestions based on predicted category
+- Dataset generation and preprocessing
+- EDA and model evaluation
+- Confusion matrices for both classification approaches
+
+## Model Results
+
+The two classification approaches were evaluated on the same held-out test set of 36 tickets.
+
+| Metric | Classic: TF-IDF + Logistic Regression | Smart: Sentence Embeddings + Logistic Regression |
+|---|---:|---:|
+| Accuracy | 94.44% | 94.44% |
+| Weighted Precision | 95.15% | 95.15% |
+| Weighted Recall | 94.44% | 94.44% |
+| Weighted F1 Score | 94.17% | 94.17% |
+
+The Smart model does **not** demonstrate a higher classification score on the current dataset. Its additional purpose is semantic representation, similar-ticket retrieval, and example-based explanation.
+
+The dataset is synthetic and relatively small, so these results should not be interpreted as equivalent to real-world production performance.
+
+## Automatic Response Suggestion
+
+The project also includes the assignment's bonus response-generation feature.
+
+After a ticket is classified, the application can generate a category-specific draft response using rule-based templates defined in `src/predict.py`.
+
+The response feature is intentionally self-contained and does not require an external LLM API or API key.
+
+The generated text is a draft for support assistance and should not be treated as verified information about a customer's account or the organisation's live operational state.
+
+## Quick Start
+
+The easiest way to run the complete project is:
 
 ```bash
 python allinone.py
 ```
 
-`allinone.py` runs the steps in order:
+The automation script:
 
-1. Creates or reuses a local `.venv` and switches to it.
+1. Creates or reuses a local virtual environment.
 2. Installs `requirements.txt`.
-3. Generates `data/tickets.csv` if it does not already exist.
-4. Prepares the dataset.
+3. Generates `data/tickets.csv` when required.
+4. Runs data preprocessing.
 5. Trains and evaluates the Classic model.
-6. Trains and evaluates the Smart model and downloads
-   `all-MiniLM-L6-v2` on its first run.
-7. Runs prediction smoke tests.
-8. Starts the web app.
+6. Trains and evaluates the Smart model.
+7. Downloads `all-MiniLM-L6-v2` on its first use when required.
+8. Runs prediction checks.
+9. Starts the Flask application.
 
-Then open http://127.0.0.1:5000. Press `Ctrl+C` to stop it.
+Then open:
 
-## Manual workflow
+```text
+http://127.0.0.1:5000
+```
+
+Press `Ctrl+C` to stop the application.
+
+## Manual Installation
 
 Create and activate a virtual environment:
 
 ```bash
 python -m venv venv
+```
 
-# Windows PowerShell
-venv\Scripts\Activate.ps1
+### Windows PowerShell
 
-# macOS/Linux
+```bash
+venv\\Scripts\\Activate.ps1
+```
+
+### macOS / Linux
+
+```bash
 source venv/bin/activate
 ```
 
@@ -54,7 +125,9 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run individual steps when desired:
+## Manual Workflow
+
+Run the individual components when needed:
 
 ```bash
 python src/generate_dataset.py
@@ -66,11 +139,62 @@ python src/predict.py --test
 python src/app.py
 ```
 
-The Smart model requires an internet connection the first time it downloads
-the pretrained sentence-transformer. If it is unavailable, use
-`python allinone.py --skip-smart`; Classic mode remains fully usable.
+The Smart model downloads the pretrained sentence-transformer the first time it is used. An internet connection is therefore required for that initial download.
 
-## Project structure
+Classic mode can still be used without the pretrained embedding model.
+
+## Application Modes
+
+### Classic Mode
+
+```text
+Ticket Description
+        ↓
+Text Preprocessing
+        ↓
+TF-IDF
+        ↓
+Logistic Regression
+        ↓
+Predicted Category
+```
+
+### Smart Mode
+
+```text
+Ticket Description
+        ↓
+Sentence Transformer
+(all-MiniLM-L6-v2)
+        ↓
+Sentence Embedding
+        ↓
+Logistic Regression
+        ↓
+Predicted Category
+
+and
+
+Sentence Embedding
+        ↓
+Cosine Similarity
+        ↓
+Top Similar Training Tickets
+        ↓
+Example-Based Explanation
+```
+
+The similarity index is built from training tickets, so held-out test tickets are not used as historical explanation examples.
+
+## Bulk Classification
+
+The web application supports batch classification through CSV upload.
+
+The uploaded CSV should contain a `ticket_description` column, or another column whose name contains `description`.
+
+The application processes up to **300 rows per upload**.
+
+## Project Structure
 
 ```text
 githubdeploy/
@@ -84,6 +208,48 @@ githubdeploy/
 └── README.md
 ```
 
-Bulk uploads should contain a `ticket_description` column, or another column
-whose name contains `description`. The web app processes up to 300 rows per
-upload.
+Important source files include:
+
+```text
+src/
+├── generate_dataset.py
+├── preprocessing.py
+├── eda.py
+├── train.py
+├── train_embeddings.py
+├── embeddings_utils.py
+├── explain.py
+├── predict.py
+└── app.py
+```
+
+## Main Technologies
+
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Sentence Transformers
+- Flask
+- HTML / CSS / JavaScript
+
+## Notes on Reproducibility
+
+The project is designed for local training and experimentation.
+
+The Classic pipeline does not require a pretrained external model.
+
+The Smart pipeline requires the pretrained `all-MiniLM-L6-v2` model on first use. After it has been downloaded and cached, subsequent runs can reuse the local model cache.
+
+The repository contains the code required to reproduce the dataset preparation, EDA, model training, evaluation, prediction, and application workflow.
+
+## Documentation
+
+The detailed project report is available in:
+
+```text
+report.md
+```
+
+It documents the problem, dataset, preprocessing, modelling approach, evaluation, semantic similarity extension, web application, bulk classification, automatic response suggestion, limitations, and future improvements.
