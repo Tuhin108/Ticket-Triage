@@ -259,7 +259,7 @@ The repository contains the code required to reproduce the dataset preparation, 
 The detailed project report is available in:
 
 ```text
-report.md
+report.pdf
 ```
 
 It documents the problem, dataset, preprocessing, modelling approach, evaluation, semantic similarity extension, web application, bulk classification, automatic response suggestion, limitations, and future improvements.
