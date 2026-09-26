@@ -4,9 +4,9 @@ A complete ML-based customer-support ticket classification system that predicts 
 
 ## Live Demo
 
-The project is also deployed on Hugging Face:
+The project is deployed here as it is:
 
-https://fox15-ticket-triage.hf.space/
+[https://fox15-ticket-triage.hf.space/](https://fox15.pythonanywhere.com/)
 
 The Hugging Face version uses **Gradio**, so its interface is different from the local Flask application.
 
